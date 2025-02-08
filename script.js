@@ -54,7 +54,7 @@ function validateCredentials() {
 
 // Generate a random position within a 200px by 200px range
 function getRandomPositionWithinRange() {
-  const offsetX = Math.random() * 500 - 100; // Range: -100 to 100
-  const offsetY = Math.random() * 500 - 100; // Range: -100 to 100
+  const offsetX = Math.random() * 400 - 100; // Range: -100 to 100
+  const offsetY = Math.random() * 400 - 100; // Range: -100 to 100
   return { x: offsetX, y: offsetY };
 }
